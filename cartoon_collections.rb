@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  array.collect do |dwarf|
+  array.each_with_index do |dwarf|
     "#{array.
   end
 end

@@ -2,6 +2,7 @@ def roll_call_dwarves(array)
   count = 0
   array.collect do |dwarf|
     
+    count += 1
   end
 end
 

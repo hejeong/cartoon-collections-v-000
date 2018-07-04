@@ -1,13 +1,13 @@
 def roll_call_dwarves(array)
   count = 1
-  array.collect do |dwarf|
+  array.each do |dwarf|
     puts "#{count}. #{dwarf}"
     count += 1
   end
 end
 
 def summon_captain_planet(calls)
-  
+  calls.collect do 
 end
 
 def long_planeteer_calls# code an argument here

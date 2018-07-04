@@ -9,7 +9,7 @@ end
 def summon_captain_planet(calls)
   calls.collect do |summon|
     new_summon = summon.capitalize
-    "#{summon"
+    "#{new_summon}"
   end
 end
 
